@@ -1,0 +1,15 @@
+# Ignorar cache do Python
+__pycache__/
+
+# Ignorar o ambiente virtual
+venv/
+.venv/
+
+# Ignorar banco de dados SQLite
+chat_history.db
+
+# Ignorar arquivos temporários
+*.pyc
+
+# Ignorar segredos da API (se você for adicionar o ngrok token em um arquivo)
+.env
